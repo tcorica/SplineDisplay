@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    
+<meta charset="utf-8">
+    
+<meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0>
+    
+<style> body {padding: 0; margin: 0;} </style>
+    
+
+
+<script src="../p5.min.js"></script>
+    
+<script src="../addons/p5.dom.min.js"></script>
+    
+<script src="../addons/p5.sound.min.js"></script>
+    
+<script src="bounce.js"></script>
+  
+<script>
+function myFunction() {
+    location.reload();
+}
+</script>
+</head>
+  
+
+<body>
+ <h2>MiniGolf</h2><p>
+Putt the ball into the hole! <br>
+Drag a line from the red ball to indicate the direction you want the ball to travel, and then release.  <br> To enter the hole, the ball must bounce at least once (changing the color to white) before reaching the hole.
+<div id="sketch-holder">
+      <!-- Our sketch will go here! -->
+    </div>
+
+<button onclick="freshStart()">New game</button>
+<button onclick="retry()">Retry same setup</button>
+
+ </body>
+
+</html>
